@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+nav{
+    height: 77px;
+    width: 100%;
+    background-color: #01214a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.titulo{
+    margin: 0;
+    padding: 0;
+}
+
+.cent-img{
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn{
+    text-align: center;
+    color: #01214a;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #fccd28;
+    border-radius: 5px;
+    border: 1px solid #01214a;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #fccd28;
+    background-color: #01214a;
+}
+
+.expo{
+    background-color: #01214a;
+    border-radius: 5px;
+}
+
+.ano{
+    background-color: #fccd28;
+    color: #01214a;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card{
+    border: 1px solid #00000033;
+    border-radius: 2%;
+    width: 256px;
+    height: fit-content;
+    background-color: #ffffff;
+}
+
+.cont-img{
+    height: 256px;
+    width: 256px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cont-img:hover .btn-img{
+    opacity: 1;
+    z-index: 1;
+}
+
+.cont-img:hover .preview{
+    filter: blur(2px);
+}
+
+.preview{
+    width: 256px;
+    height: 256px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.btn-img{
+    position: absolute;
+    opacity: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #01214a;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #fccd28;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    transition: 0.2s;
+}
+
+.btn-img:hover{
+    opacity: 1;
+    z-index: 1;
+    color: #fccd28;
+    background-color: #01214a;
+}
+
+.btn-img:hover ~ .preview{
+    filter: blur(2px);
+}
+
+.text{
+    margin-left: 25px;
+    margin-right: 25px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+p.text{
+    margin-top: -10px;
+}
