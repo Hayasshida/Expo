@@ -54,18 +54,21 @@ nav{
     background-color: #01214a;
     border-radius: 5px;
 }
-
+.cent-ano{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ano{
     background-color: #fccd28;
     color: #01214a;
-    width: 80%;
+    width: 1079.19px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
 }
-
 
 .container{
     display: flex;
