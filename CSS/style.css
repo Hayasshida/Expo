@@ -54,12 +54,14 @@ nav{
     background-color: #01214a;
     border-radius: 5px;
 }
+
 .cent-ano{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .ano{
     background-color: #fccd28;
     color: #01214a;
@@ -142,6 +144,32 @@ nav{
     overflow-wrap: break-word;
 }
 
+h2.text{
+    margin-bottom: 1px;
+}
+
 p.text{
-    margin-top: -10px;
+    margin-top: 10px;
+}
+
+.btn-seta{
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.home{
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    right: 4.5vw;
+    bottom: 3vh;
+}
+
+.seta{
+    border: 1px solid black;
+    border-radius: 100%;
+    transform: rotate(180deg);
+    box-shadow: -3px -7px 8px 0px rgba(0, 0, 0, 0.3);
 }
