@@ -146,6 +146,7 @@ nav{
 
 h2.text{
     margin-bottom: 1px;
+    font-size: 1.35em;
 }
 
 p.text{
@@ -163,7 +164,7 @@ p.text{
     position: fixed;
     width: 64px;
     height: 64px;
-    right: 4.5vw;
+    right: 25px;
     bottom: 3vh;
 }
 
